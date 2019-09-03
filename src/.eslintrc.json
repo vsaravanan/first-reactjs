@@ -7,13 +7,25 @@
   //   "jsx": true,
   //   "experimentalObjectRestSpread": true
   // },  
+  // "plugin:prettier/recommended",
+  // "prettier/flowtype",
+  // "prettier/react",
+  // "prettier/standard",
+  // "eslint:recommended",
+  // "plugin:flowtype/recommended"
+  // "prettier"
+  // "prettier/react"
+
   "extends": [
-    "react-app",
-    "prettier",
-    "eslint:recommended",
-    "plugin:flowtype/recommended"
+    "react-app"
   ],
-  "plugins": ["html", "standard", "prettier", "react", "import", "flowtype"],
+  "plugins": [
+    "html",
+    "standard",
+    "react",
+    "import",
+    "flowtype"
+  ],
   "parserOptions": {
     "ecmaVersion": 7,
     "sourceType": "module",
@@ -30,13 +42,12 @@
     "no-unused-vars": "warn",
     "constructor-super": "warn",
     "valid-typeof": "warn",
-    "no-extra-semi": "error",
-    "prettier.singleQuote": "true",
-    "prettier.jsxSingleQuote": "true",
-    "semi":"off",
+
+    "semi": "off",
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error"
-
+    // "prettier.singleQuote": "true",
+    // "prettier.jsxSingleQuote": "true",
     // "indent": [
     //   2,
     //   4

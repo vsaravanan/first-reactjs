@@ -9,3 +9,14 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-standard": "^4.0.1",
     "eslint-config-react-app": "^5.0.1",
+
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },    
+
+
+"bracesSpacing": true,
+"breakProperty": true,

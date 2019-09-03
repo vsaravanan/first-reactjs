@@ -3,20 +3,49 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-
-    "eslint": "^5.14.1",
-
-    "prettier-eslint": "^8.8.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-config-react-app": "^5.0.1",
+    "eslint-plugin-flowtype": "^3.4.2",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.18.2",
+    "prettier-eslint": "^8.8.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-config-react-app": "^5.0.1",
+    "eslint-plugin-flowtype": "^3.4.2",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.18.2",
+    "prettier-eslint": "^8.8.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier ./src/**/*.js --write --single-quote"
+    "format": "prettier ./src/**/*.js --write ",
+    "notusedeslint": "eslint **/*.js "
   },
   "eslintConfig": {
     "extends": "react-app"
